@@ -33,7 +33,7 @@ def load_file():
     load_analysis = input("Type path to sentiment analysis file.\n(leave blank for default)")
     if load_analysis != '':
         print('Loading JSON file.\n')
-        start(load_analysis)
+        start("Word-Dicts/" + load_analysis)
     else:
         print('Loading default JSON file.\n')
         start("Word-Dicts/AFINN-111.json")
